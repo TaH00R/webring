@@ -2,6 +2,8 @@
 
 A minimal directory of student portfolios and GitHub profiles from IIIT Guwahati.
 
+https://iiitg-index.vercel.app/
+
 ![Next.js](https://img.shields.io/badge/Next.js-16-black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-v4-38BDF8)
