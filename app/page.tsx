@@ -1,4 +1,5 @@
 import SearchBar from "@/components/SearchBar";
+import BatchFilter from "@/components/BatchFilter";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <div className="mt-10 h-px w-full bg-[#2B3A52]" />
 
         <SearchBar />
+        <BatchFilter />
       </div>
     </main>
   );
