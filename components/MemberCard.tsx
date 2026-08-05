@@ -11,20 +11,21 @@ interface MemberCardProps {
 
 export default function MemberCard({ member }: MemberCardProps) {
   const githubUrl = `https://github.com/${member.github}`;
-  const portfolioUrl = member.portfolio || githubUrl;
+  const cardUrl = member.portfolio || githubUrl;
 
   const displayUrl = member.portfolio
     ? new URL(member.portfolio).hostname
     : `github.com/${member.github}`;
 
   return (
-    <a
-      href={portfolioUrl}
-      target="_blank"
-      rel="noopener noreferrer"
+    <div
+      onClick={() =>
+        window.open(cardUrl, "_blank", "noopener,noreferrer")
+      }
       className="
         group
-        w-[180px]
+        w-44
+        cursor-pointer
         border
         border-[#2B3A52]
         bg-[#1A2233]
@@ -41,6 +42,7 @@ export default function MemberCard({ member }: MemberCardProps) {
           width={40}
           height={40}
           className="border border-[#2B3A52] object-cover"
+          unoptimized
         />
 
         <ExternalLink
@@ -69,6 +71,6 @@ export default function MemberCard({ member }: MemberCardProps) {
           <FaGithub size={18} />
         </a>
       </div>
-    </a>
+    </div>
   );
 }
