@@ -1,36 +1,119 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# IIITG Index
 
-## Getting Started
+A minimal directory of student portfolios and GitHub profiles from IIIT Guwahati.
 
-First, run the development server:
+![Next.js](https://img.shields.io/badge/Next.js-16-black)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-blue)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-v4-38BDF8)
+
+---
+
+## Features
+
+- Live search
+- Year-wise filtering
+- Automatic GitHub avatars
+- Portfolio with GitHub fallback
+- Responsive layout
+- Minimal dark UI
+
+---
+
+## Tech Stack
+
+- Next.js
+- TypeScript
+- Tailwind CSS
+- Lucide React
+- React Icons
+
+---
+
+## Running Locally
+
+Clone the repository.
+
+```bash
+git clone https://github.com/<your-username>/iiitg-index.git
+```
+
+Install dependencies.
+
+```bash
+npm install
+```
+
+Start the development server.
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Project Structure
 
-## Learn More
+```text
+src/
+├── app/
+├── components/
+├── data/
+│   └── members.json
+├── types/
+└── lib/
+```
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Adding Yourself
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Open
 
-## Deploy on Vercel
+```text
+src/data/members.json
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Add your information.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```json
+{
+  "name": "John Doe",
+  "year": 2025,
+  "github": "johndoe",
+  "portfolio": "https://john.dev"
+}
+```
+
+The GitHub avatar is fetched automatically.
+
+Create a Pull Request once you're done.
+
+---
+
+## Contributing
+
+1. Fork this repository.
+2. Create a new branch.
+
+```bash
+git checkout -b add-my-profile
+```
+
+3. Add yourself to `src/data/members.json`.
+4. Commit your changes.
+
+```bash
+git commit -m "feat: add John Doe"
+```
+
+5. Push your branch.
+
+```bash
+git push origin add-my-profile
+```
+
+6. Open a Pull Request.
+
+---

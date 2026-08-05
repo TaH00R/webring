@@ -1,29 +1,37 @@
 "use client";
 
-import { useMemo, useState } from "react";
-import { members } from "@/data/members";
+import { useMemo } from "react";
+import members from "@/data/members.json";
+import type { Member } from "@/types/member";
+const allMembers: Member[] = members;
 
-export default function YearFilter() {
-  const [selectedYear, setSelectedYear] = useState<string>("All");
+interface YearFilterProps {
+  value: number | "All";
+  onChange: (year: number | "All") => void;
+}
 
-  const years = useMemo(() => {
-    return [
-      "All",
-      ...Array.from(new Set(members.map((member) => member.year)))
-        .sort((a, b) => b - a)
-        .map(String),
-    ];
-  }, []);
+export default function YearFilter({
+  value,
+  onChange,
+}: YearFilterProps) {
+  const years = useMemo<(number | "All")[]>(() => {
+  return [
+    "All",
+    ...Array.from(new Set(members.map((member) => member.year))).sort(
+      (a, b) => b - a
+    ),
+  ];
+}, []);
 
   return (
     <div className="mt-8 flex flex-wrap gap-3">
       {years.map((year) => {
-        const active = selectedYear === year;
+        const active = value === year;
 
         return (
           <button
             key={year}
-            onClick={() => setSelectedYear(year)}
+            onClick={() => onChange(year)}
             className={`
               border
               px-4
