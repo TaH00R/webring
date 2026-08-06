@@ -13,7 +13,8 @@
   {
     "name": "Nishchay",
     "year": 2029,
-    "github": "nishchay-joshi"
+    "github": "nishchay-joshi",
+    "portfolio": "https://nishchay-joshi-portfolio.vercel.app/"
    },
    {
     "name": "Tanishq",
@@ -25,4 +26,26 @@
   "year": 2029,
   "github": "Naviie-7",
 }
+    "name": "Kudukho",
+    "year": 2029,
+    "github": "Pew52"
+  },
+  {
+    "name": "Krishna Agarwal",
+    "year": 2029,
+    "github": "KrishnaAgarwal7"
+  },
+  {
+    "name":"Harshit Jalodiya",
+    "year":2029,
+    "github":"harshitjalodiya007"
+  },
+  
+{
+    "name": "Krish",
+    "year": 2029,
+    "github": "codebykrixh"
+  }
+  
+    
 ]
