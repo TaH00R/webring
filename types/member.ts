@@ -1,7 +1,6 @@
 export interface Member {
-  id: number;
   name: string;
   year: number;
-  github: string; // username only
+  github: string; // username only, no URL
   portfolio?: string;
 }

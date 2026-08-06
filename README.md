@@ -4,55 +4,6 @@ A minimal directory of student portfolios and GitHub profiles from IIIT Guwahati
 
 https://iiitg-index.vercel.app/
 
-![Next.js](https://img.shields.io/badge/Next.js-16-black)
-![TypeScript](https://img.shields.io/badge/TypeScript-5-blue)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-v4-38BDF8)
-
----
-
-## Features
-
-- Live search
-- Year-wise filtering
-- Automatic GitHub avatars
-- Portfolio with GitHub fallback
-- Responsive layout
-- Minimal dark UI
-
----
-
-## Tech Stack
-
-- Next.js
-- TypeScript
-- Tailwind CSS
-- Lucide React
-- React Icons
-
----
-
-## Running Locally
-
-Clone the repository.
-
-```bash
-git clone https://github.com/<your-username>/iiitg-index.git
-```
-
-Install dependencies.
-
-```bash
-npm install
-```
-
-Start the development server.
-
-```bash
-npm run dev
-```
-
-Open http://localhost:3000
-
 ---
 
 ## Project Structure
@@ -88,7 +39,8 @@ Add your information.
 }
 ```
 
-The GitHub avatar is fetched automatically.
+If u don't have a portfolio, you can leave the field empty.
+The default link would be to the GitHub profile.
 
 Create a Pull Request once you're done.
 
