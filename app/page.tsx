@@ -9,7 +9,6 @@ import YearFilter from "@/components/YearFilter";
 import members from "@/data/members.json";
 import type { Member } from "@/types/member";
 
-import Link from "next/link";
 import { FaDiscord } from "react-icons/fa6";
 import IIITGLogo from "../components/IIITGLogo"
 
