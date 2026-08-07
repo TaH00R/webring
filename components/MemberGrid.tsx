@@ -7,7 +7,7 @@ interface MemberGridProps {
 
 export default function MemberGrid({ members }: MemberGridProps) {
   return (
-    <div className="mt-10 flex flex-wrap gap-5">
+    <div className="mt-10 grid grid-cols-2 gap-5 sm:flex sm:flex-wrap sm:[&>*]:w-44">
       {members.map((member) => (
         <MemberCard key={member.github} member={member} />
       ))}

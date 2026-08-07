@@ -24,7 +24,7 @@ export default function MemberCard({ member }: MemberCardProps) {
       }
       className="
         group
-        w-44
+        w-full
         cursor-pointer
         border
         border-[#2B3A52]
