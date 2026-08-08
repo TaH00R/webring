@@ -32,7 +32,7 @@
     "year":2029,
     "github":"Retro-boy-17"
   },
-    {
+  {
     "name": "Divyansh Deep",
     "year": 2029,
     "github": "paltze"
@@ -41,6 +41,11 @@
     "name": "Siddharth",
     "year": 2029,
     "github": "kensh1ken"
+  },
+  {
+  "name": "Harkirat Singh",
+  "year": 2029,
+  "github": "harkiratsaluja1012-svg"
   },
   {
   "name": "Navya Barnwal",
@@ -101,10 +106,5 @@
   "name": "Bhavya Pratap Singh",
   "year": 2029,
   "github": "BhavyaPratap0709"
-  },
-  {
-  "name": "Harkirat Singh",
-  "year": 2029,
-  "github": "harkiratsaluja1012-svg"
   }
 ]
