@@ -17,12 +17,12 @@
     "github": "R1ftzy",
     "portfolio": "https://r1ftzy.github.io/"
   },
-   {
+  {
     "name": "Tanishq",
     "year": 2028,
     "github": "Tanishq-Mehta-1"
-   },
-    {
+  },
+  {
     "name": "Krishna Agarwal",
     "year": 2029,
     "github": "KrishnaAgarwal7"
@@ -46,19 +46,18 @@
   "name": "Navya Barnwal",
   "year": 2029,
   "github": "Naviie-7"
-},
+  },
   {
     "name": "Kudukho",
     "year": 2029,
     "github": "Pew52"
   },
-
   {
     "name":"Harshit Jalodiya",
     "year":2029,
     "github":"harshitjalodiya007"
   },
-{
+  {
     "name": "Krish",
     "year": 2029,
     "github": "codebykrixh"
@@ -102,5 +101,10 @@
   "name": "Bhavya Pratap Singh",
   "year": 2029,
   "github": "BhavyaPratap0709"
-}
+  },
+  {
+  "name": "Harkirat Singh",
+  "year": 2029,
+  "github": "harkiratsaluja1012-svg"
+  }
 ]
