@@ -6,22 +6,43 @@
     "portfolio": "https://tah00r.github.io/portfolio/"
   },
   {
-    "name": "Ronik",
-    "year": 2029,
-    "github": "R1ftzy",
-    "portfolio": "https://r1ftzy.github.io/"
-  },
-  {
     "name": "Nishchay",
     "year": 2029,
     "github": "nishchay-joshi",
     "portfolio": "https://nishchay-joshi-portfolio.vercel.app/"
    },
+  {
+    "name": "Ronik",
+    "year": 2029,
+    "github": "R1ftzy",
+    "portfolio": "https://r1ftzy.github.io/"
+  },
    {
     "name": "Tanishq",
     "year": 2028,
     "github": "Tanishq-Mehta-1"
    },
+    {
+    "name": "Krishna Agarwal",
+    "year": 2029,
+    "github": "KrishnaAgarwal7"
+  },
+    {
+    "name":"Kunal",
+    "year":2029,
+    "github":"Retro-boy-17",
+    "portfolio":"https://github.com/Retro-boy-17"
+  },
+    {
+    "name": "Divyansh Deep",
+    "year": 2029,
+    "github": "paltze"
+  },
+  {
+    "name": "Siddharth",
+    "year": 2029,
+    "github": "kensh1ken"
+  },
   {
   "name": "Navya Barnwal",
   "year": 2029,
@@ -32,11 +53,7 @@
     "year": 2029,
     "github": "Pew52"
   },
-  {
-    "name": "Krishna Agarwal",
-    "year": 2029,
-    "github": "KrishnaAgarwal7"
-  },
+
   {
     "name":"Harshit Jalodiya",
     "year":2029,
@@ -46,16 +63,6 @@
     "name": "Krish",
     "year": 2029,
     "github": "codebykrixh"
-  },
-  {
-    "name": "Divyansh Deep",
-    "year": 2029,
-    "github": "paltze"
-  },
-  {
-    "name": "Siddharth",
-    "year": 2029,
-    "github": "kensh1ken"
   },
   {
     "name":"Revant Choudhary",
