@@ -48,6 +48,11 @@
   "github": "harkiratsaluja1012-svg"
   },
   {
+    "name":"Eklavya",
+    "year":2029,
+    "github":"eklavyadev",
+  },
+  {
   "name": "Navya Barnwal",
   "year": 2029,
   "github": "Naviie-7"
@@ -127,9 +132,8 @@
     "year":2029,
     "github":"harshilagrawal42-source"
   },
-  {
   "name": "Arihant Pandey",
   "year": 2029,
   "github": "arihantpandey3724-code"
-}
+  }
 ]
