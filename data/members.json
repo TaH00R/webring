@@ -1,10 +1,5 @@
 [
   {
-    "name": "Ansh Gupta",
-    "year": 2029,
-    "github": "ansh-guptaa"
-  },
-  {
     "name": "TaHooR",
     "year": 2029,
     "github": "TaH00R",
@@ -112,6 +107,11 @@
   "year": 2029,
   "github": "BhavyaPratap0709"
   },
+    {
+    "name": "Ansh Gupta",
+    "year": 2029,
+    "github": "ansh-guptaa"
+  },
   {
     "name":"Anisha Poddar",
     "year":2029,
@@ -126,10 +126,10 @@
     "name":"Harshil Agrawal",
     "year":2029,
     "github":"harshilagrawal42-source"
-  }
+  },
   {
   "name": "Arihant Pandey",
   "year": 2029,
-  "github": "https://github.com/arihantpandey3724-code",
+  "github": "arihantpandey3724-code"
 }
 ]
