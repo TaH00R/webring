@@ -23,14 +23,9 @@
     "github": "Tanishq-Mehta-1"
   },
   {
-    "name": "Krishna Agarwal",
-    "year": 2029,
-    "github": "KrishnaAgarwal7"
-  },
-    {
-    "name":"Kunal",
+    "name":"Eklavya",
     "year":2029,
-    "github":"Retro-boy-17"
+    "github":"eklavyadev"
   },
   {
     "name": "Divyansh Deep",
@@ -38,9 +33,9 @@
     "github": "paltze"
   },
   {
-    "name": "Siddharth",
+    "name": "Krishna Agarwal",
     "year": 2029,
-    "github": "kensh1ken"
+    "github": "KrishnaAgarwal7"
   },
   {
   "name": "Harkirat Singh",
@@ -48,9 +43,14 @@
   "github": "harkiratsaluja1012-svg"
   },
   {
-    "name":"Eklavya",
+    "name":"Kunal",
     "year":2029,
-    "github":"eklavyadev",
+    "github":"Retro-boy-17"
+  },
+  {
+    "name": "Siddharth",
+    "year": 2029,
+    "github": "kensh1ken"
   },
   {
   "name": "Navya Barnwal",
@@ -132,6 +132,7 @@
     "year":2029,
     "github":"harshilagrawal42-source"
   },
+  {
   "name": "Arihant Pandey",
   "year": 2029,
   "github": "arihantpandey3724-code"
