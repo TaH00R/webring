@@ -1,10 +1,5 @@
 [
   {
-    "name": "Ansh Gupta",
-    "year": 2029,
-    "github": "ansh-guptaa"
-  },
-  {
     "name": "TaHooR",
     "year": 2029,
     "github": "TaH00R",
@@ -126,5 +121,11 @@
     "name":"Harshil Agrawal",
     "year":2029,
     "github":"harshilagrawal42-source"
+  },
+  {
+    "name":"Eklavya",
+    "year":2029,
+    "github":"eklavyadev",
+    "portfolio": "https://github.com/eklavyadev"
   }
 ]
