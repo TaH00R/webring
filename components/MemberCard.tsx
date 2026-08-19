@@ -7,9 +7,10 @@ import { Member } from "@/types/member";
 
 interface MemberCardProps {
   member: Member;
+  onClick: (member: Member) => void;
 }
 
-export default function MemberCard({ member }: MemberCardProps) {
+export default function MemberCard({ member, onClick }: MemberCardProps) {
   const githubUrl = `https://github.com/${member.github}`;
   const cardUrl = member.portfolio || githubUrl;
 
@@ -19,9 +20,7 @@ export default function MemberCard({ member }: MemberCardProps) {
 
   return (
     <div
-      onClick={() =>
-        window.open(cardUrl, "_blank", "noopener,noreferrer")
-      }
+      onClick={() => onClick(member)}
       className="
         group
         w-full
@@ -45,10 +44,18 @@ export default function MemberCard({ member }: MemberCardProps) {
           unoptimized
         />
 
-        <ExternalLink
-          size={15}
-          className="text-[#6E7F9E] opacity-0 transition-opacity duration-200 group-hover:opacity-100"
-        />
+        <a
+          href={cardUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          onClick={(e) => e.stopPropagation()}
+          aria-label={`Open ${member.name}'s ${member.portfolio ? "portfolio" : "GitHub"}`}
+        >
+          <ExternalLink
+            size={15}
+            className="text-[#6E7F9E] opacity-0 transition-opacity duration-200 group-hover:opacity-100"
+          />
+        </a>
       </div>
 
       <h3 className="truncate font-mono text-[15px] font-semibold text-white">
