@@ -40,7 +40,7 @@ export default function MemberDashboard({
             "
           >
             <FaGithub size={15} />
-            GitHub
+            <span className="hidden sm:inline">GitHub</span>
           </a>
 
           {member.portfolio && (
@@ -60,8 +60,8 @@ export default function MemberDashboard({
                 hover:text-[#F1F5FF]
               "
             >
-              <SiLeetcode size={15} />
-              Portfolio
+              <ExternalLink size={15} />
+              <span className="hidden sm:inline">Portfolio</span>
             </a>
           )}
           {member.leetcode && (
@@ -81,8 +81,8 @@ export default function MemberDashboard({
                 hover:text-[#F1F5FF]
               "
             >
-              <ExternalLink size={15} />
-              Leetcode
+              <SiLeetcode size={15} />
+              <span className="hidden sm:inline">Leetcode</span>
             </a>
           )}
 
