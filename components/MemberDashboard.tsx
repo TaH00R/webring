@@ -111,7 +111,7 @@ export default function MemberDashboard({
           }}
         />
 
-        <div className="grid grid-cols-[140px_1fr] gap-0 p-6 pl-5 pr-5">
+        <div className="grid grid-cols-[140px_1fr] gap-0 p-6 pl-1 pr-2 sm:pl-5 sm:pr-5">
           <div className="flex w-[140px] flex-col items-center">
             <img
               src={`https://github.com/${member.github}.png`}
@@ -161,7 +161,7 @@ export default function MemberDashboard({
             )}
           </div>
 
-          <div className="min-w-0 ml-6">
+          <div className="min-w-0 ml-1 sm:ml-6">
             <h3 className="mb-3 font-mono text-sm font-semibold text-[#F1F5FF]">
               Tech Stack
             </h3>
