@@ -111,14 +111,14 @@ export default function MemberDashboard({
           }}
         />
 
-        <div className="grid grid-cols-[140px_1fr] gap-0 p-6 pl-1">
+        <div className="grid grid-cols-[140px_1fr] gap-0 p-6 pl-5 pr-5">
           <div className="flex w-[140px] flex-col items-center">
             <img
               src={`https://github.com/${member.github}.png`}
               alt={member.name}
               className="-mt-16 mb-4 size-24 rounded-full border-4 border-[#1A2333] object-cover"
             />
-            <div className="ml-5">
+            <div className="ml-3">
               <h2 className="font-mono text-2xl font-bold">{member.name}</h2>
               <div className="group relative w-[120px]">
                 <a
@@ -127,7 +127,7 @@ export default function MemberDashboard({
                   rel="noopener noreferrer"
                   className="
                     relative z-20
-                    block w-fit max-w-[120px]
+                    block w-fit max-w-[110px]
                     truncate
                     border border-transparent
                     bg-transparent
@@ -161,7 +161,7 @@ export default function MemberDashboard({
             )}
           </div>
 
-          <div className="min-w-0 ml-2.5">
+          <div className="min-w-0 ml-6">
             <h3 className="mb-3 font-mono text-sm font-semibold text-[#F1F5FF]">
               Tech Stack
             </h3>
