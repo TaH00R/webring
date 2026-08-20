@@ -116,8 +116,6 @@ export default function MemberDashboard({
                   hover:max-w-[500px]
                   hover:border-[#2B3A52]
                   hover:bg-[#1A2233]
-                  hover:px-2
-                  hover:py-1
                   hover:text-[#F1F5FF]
                 "
               >
