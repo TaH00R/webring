@@ -43,6 +43,25 @@
     ]
   },
   {
+    "email": "nishchay.joshi25b@iiitg.ac.in",
+    "name": "Nishchay Joshi",
+    "year": 2029,
+    "github": "nishchay-joshi",
+    "portfolio": "https://nishchay-joshi-portfolio.vercel.app",
+    "leetcode": "COYSCOYSCOYS",
+    "techStack": [
+      "C",
+      "C++",
+      "Python",
+      "Fastapi",
+      "React",
+      "TypeScript",
+      "JavaScript",
+      "Opencv",
+      "PostgreSQL"
+    ]
+  },
+  {
     "email": "siddharth.dhar25b@iiitg.ac.in",
     "name": "Siddharth Sankar Dhar",
     "year": 2029,
@@ -90,25 +109,6 @@
       "Java",
       "Python",
       "Git"
-    ]
-  },
-  {
-    "email": "nishchay.joshi25b@iiitg.ac.in",
-    "name": "Nishchay Joshi",
-    "year": 2029,
-    "github": "nishchay-joshi",
-    "portfolio": "https://nishchay-joshi-portfolio.vercel.app",
-    "leetcode": "COYSCOYSCOYS",
-    "techStack": [
-      "C",
-      "C++",
-      "Python",
-      "Fastapi",
-      "React",
-      "TypeScript",
-      "JavaScript",
-      "Opencv",
-      "PostgreSQL"
     ]
   }
 ]
