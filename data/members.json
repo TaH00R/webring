@@ -1,154 +1,16 @@
 [
   {
+    "email": "mohammad.tahoor25b@iiitg.ac.in",
     "name": "TaHooR",
     "year": 2029,
     "github": "TaH00R",
     "portfolio": "https://tah00r.github.io/portfolio/",
-    "leetcode": "WQseQx4dgL",
-    "techStack": ["Flutter", "Spring Boot", "Next.js", "C++"]
-  },
-  {
-    "name": "Nishchay",
-    "year": 2029,
-    "github": "nishchay-joshi",
-    "portfolio": "https://nishchay-joshi-portfolio.vercel.app/",
-    "leetcode": "COYSCOYSCOYS"
-   },
-  {
-    "name": "Ronik",
-    "year": 2029,
-    "github": "R1ftzy",
-    "portfolio": "https://r1ftzy.github.io/",
-    "leetcode": "r1ftzy"
-  },
-  {
-    "name": "Tanishq",
-    "year": 2028,
-    "github": "Tanishq-Mehta-1"
-  },
-  {
-    "name":"Eklavya",
-    "year":2029,
-    "github":"eklavyadev"
-  },
-  {
-    "name": "Divyansh Deep",
-    "year": 2029,
-    "github": "paltze"
-  },
-  {
-    "name": "Krishna Agarwal",
-    "year": 2029,
-    "github": "KrishnaAgarwal7"
-  },
-  {
-  "name": "Harkirat Singh",
-  "year": 2029,
-  "github": "harkiratsaluja1012-svg"
-  },
-  {
-    "name":"Kunal",
-    "year":2029,
-    "github":"Retro-boy-17"
-  },
-  {
-    "name": "Siddharth",
-    "year": 2029,
-    "github": "kensh1ken"
-  },
-  {
-  "name": "Navya Barnwal",
-  "year": 2029,
-  "github": "Naviie-7"
-  },
-  {
-    "name": "Kudukho",
-    "year": 2029,
-    "github": "Pew52"
-  },
-  {
-    "name":"Harshit Jalodiya",
-    "year":2029,
-    "github":"harshitjalodiya007"
-  },
-  {
-    "name": "Krish",
-    "year": 2029,
-    "github": "codebykrixh"
-  },
-  {
-    "name":"Revant Choudhary",
-    "year":2029,
-    "github":"revant2000-wtd"
-  },
-  {  
-    "name":"Piyush Rawat",
-    "year":2029,
-    "github":"piyushrawat66"
-  },
-  {  
-    "name":"Soham",
-    "year":2029,
-    "github":"Soham-Ghosh-code-hub"
-  },
-  {
-    "name":"Indrajeet",
-    "year":2029,
-    "github":"node-debug"
-  },
-  {
-    "name":"Himanshu Khandelwal",
-    "year":2029,
-    "github":"himanshunisha11107-max"
-  },
-  {
-    "name": "Aayush Agarwal",
-    "year": 2029,
-    "github": "Aayyuuu3"
-  },
-  {
-    "name": "Divyan",
-    "year": 2029,
-    "github": "divyansivodia"
-  },
-  {
-  "name": "Bhavya Pratap Singh",
-  "year": 2029,
-  "github": "BhavyaPratap0709"
-  },
-    {
-    "name": "Ansh Gupta",
-    "year": 2029,
-    "github": "ansh-guptaa"
-  },
-  {
-    "name":"Anisha Poddar",
-    "year":2029,
-    "github":"AnishaPoddar"
-  },
-  {
-    "name":"Abhay",
-    "year":2029,
-    "github":"Abhay-Agrahari"
-  },
-  {
-    "name":"Harshil Agrawal",
-    "year":2029,
-    "github":"harshilagrawal42-source"
-  },
-  {
-  "name": "Arihant Pandey",
-  "year": 2029,
-  "github": "arihantpandey3724-code"
-  },
-  {
-    "name": "Pratyush Prakash",
-    "year":  2029,
-    "github": "Gen-Pratyush"
-  },
-  {
-    "name": "Lucky Kumari",
-    "year": 2029,
-    "github": "lucky-carat" 
+    "leetcode": "WqseQx4dgL",
+    "techStack": [
+      "Flutter",
+      "Spring Boot",
+      "Next.js",
+      "C++"
+    ]
   }
 ]
