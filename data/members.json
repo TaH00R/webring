@@ -1,21 +1,5 @@
 [
-  {
-    "email": "ronik.baul25b@iiitg.ac.in",
-    "name": "Ronik",
-    "year": 2029,
-    "github": "R1ftzy",
-    "portfolio": "https://r1ftzy.github.io/",
-    "leetcode": "r1ftzy",
-    "techStack": [
-      "C",
-      "C++",
-      "Raylib",
-      "Sdl3",
-      "Golang",
-      "React"
-    ]
-  },
-  {
+   {
     "email": "mohammad.tahoor25b@iiitg.ac.in",
     "name": "TaHooR",
     "year": 2029,
@@ -40,6 +24,22 @@
       "Firebase",
       "Linux",
       "Dart"
+    ]
+  },
+  {
+    "email": "ronik.baul25b@iiitg.ac.in",
+    "name": "Ronik",
+    "year": 2029,
+    "github": "R1ftzy",
+    "portfolio": "https://r1ftzy.github.io/",
+    "leetcode": "r1ftzy",
+    "techStack": [
+      "C",
+      "C++",
+      "Raylib",
+      "Sdl3",
+      "Golang",
+      "React"
     ]
   }
 ]
