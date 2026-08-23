@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect } from "react";
 import type { Member } from "@/types/member";
 
 import { X, ExternalLink } from "lucide-react";
@@ -36,10 +37,39 @@ export default function MemberDashboard({
     ? `https://leetcode.com/u/${member.leetcode}/`
     : null;
 
-  return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 p-4">
-      <div className="relative max-h-[90vh] w-full max-w-3xl overflow-y-auto bg-[#1A2333]">
+    useEffect(() => {
+  const handleKeyDown = (event: KeyboardEvent) => {
+    if (event.key === "Escape") {
+      onClose();
+    }
+  };
 
+  window.addEventListener("keydown", handleKeyDown);
+
+  return () => {
+    window.removeEventListener("keydown", handleKeyDown);
+  };
+}, [onClose]);
+
+useEffect(() => {
+  const originalOverflow = document.body.style.overflow;
+
+  document.body.style.overflow = "hidden";
+
+  return () => {
+    document.body.style.overflow = originalOverflow;
+  };
+}, []);
+
+  return (
+    <div
+  onClick={onClose}
+  className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 p-4"
+>
+  <div
+    onClick={(e) => e.stopPropagation()}
+    className="relative max-h-[90vh] w-full max-w-3xl overflow-y-auto bg-[#1A2333]"
+  >
         <div className="absolute right-4 top-4 z-10 flex gap-2">
 
           <a
