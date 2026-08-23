@@ -1,6 +1,10 @@
 export interface Member {
   name: string;
   year: number;
-  github: string; // username only, no URL
+  github: string;
   portfolio?: string;
+  leetcode?: string;
+
+  techStack?: string[];
+  banner?: string;
 }

@@ -3,19 +3,23 @@
     "name": "TaHooR",
     "year": 2029,
     "github": "TaH00R",
-    "portfolio": "https://tah00r.github.io/portfolio/"
+    "portfolio": "https://tah00r.github.io/portfolio/",
+    "leetcode": "WQseQx4dgL",
+    "techStack": ["Flutter", "Spring Boot", "Next.js", "C++"]
   },
   {
     "name": "Nishchay",
     "year": 2029,
     "github": "nishchay-joshi",
-    "portfolio": "https://nishchay-joshi-portfolio.vercel.app/"
+    "portfolio": "https://nishchay-joshi-portfolio.vercel.app/",
+    "leetcode": "COYSCOYSCOYS"
    },
   {
     "name": "Ronik",
     "year": 2029,
     "github": "R1ftzy",
-    "portfolio": "https://r1ftzy.github.io/"
+    "portfolio": "https://r1ftzy.github.io/",
+    "leetcode": "r1ftzy"
   },
   {
     "name": "Tanishq",
