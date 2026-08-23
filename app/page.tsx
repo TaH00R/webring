@@ -55,24 +55,42 @@ export default function Home() {
             </span>
           </p>
           </div>
-          <div className="mt-2 flex gap-4 font-mono text-sm text-[#9AA8C7]">
-            <a
-              href="https://discord.gg/FCPj699MQU"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-[#5B8CFF]"
-            >
-              <FaDiscord size={30} />
-            </a>
+          <div className="mt-2 flex items-center gap-4 font-mono text-sm text-[#9AA8C7]">
+  <a
+    href="#"
+    className="
+      border
+      border-[#2B3A52]
+      px-4
+      py-2
+      font-mono
+      text-xs
+      text-[#9AA8C7]
+      transition-colors
+      hover:border-[#5B8CFF]
+      hover:text-[#F1F5FF]
+    "
+  >
+    + Join the Index
+  </a>
 
-            <a
-              href="https://iiitg.ac.in"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-            <IIITGLogo className="size-7 text-[#9AA8C7] hover:text-[#5B8CFF] transition-colors" />
-            </a>
-          </div>
+  <a
+    href="https://discord.gg/FCPj699MQU"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="hover:text-[#5B8CFF]"
+  >
+    <FaDiscord size={30} />
+  </a>
+
+  <a
+    href="https://iiitg.ac.in"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <IIITGLogo className="size-7 text-[#9AA8C7] transition-colors hover:text-[#5B8CFF]" />
+  </a>
+</div>
           </div>
         <div className="mt-10 h-px w-full bg-[#2B3A52]" />
 

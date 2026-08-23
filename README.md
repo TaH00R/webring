@@ -2,6 +2,8 @@
 
 A minimal directory of student portfolios and GitHub profiles from IIIT Guwahati.
 
+google forms link - https://forms.gle/zp9j25Vc8pjD7zua9
+
 https://iiitg-index.vercel.app/
 
 ---
