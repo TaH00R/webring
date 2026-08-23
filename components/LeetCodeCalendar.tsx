@@ -8,11 +8,11 @@ interface LeetCodeCalendarProps {
   username?: string;
 }
 
-const CELL_SIZE = 13;
-const GAP = 3;
+const CELL_SIZE = 12;
+const GAP = 4;
 
 function getColor(count: number, max: number) {
-  if (count === 0) return "#2B3A52";
+  if (count === 0) return "#161B22";
 
   const ratio = count / max;
 
@@ -143,129 +143,120 @@ export default function LeetCodeCalendar({
     );
   }
 
-  return (
-    <div className="min-w-[680px]">
+return (
+  <div className="w-full min-w-0">
 
-      {/* Month labels */}
+    <div className="overflow-x-auto">
+      <div className="min-w-[680px]">
 
-      <div
-        className="relative mb-2 h-5"
-        style={{
-          width: `${
-            weeks.length *
-              (CELL_SIZE + GAP) -
-            GAP
-          }px`,
-        }}
-      >
-        {months.map((month) => (
-          <span
-            key={`${month.name}-${month.weekIndex}`}
-            className="
-              absolute
-              font-mono
-              text-sm
-              text-[#9AA8C7]
-            "
-            style={{
-              left: `${
-                month.weekIndex *
-                (CELL_SIZE + GAP)
-              }px`,
-            }}
-          >
-            {month.name}
-          </span>
-        ))}
-      </div>
+        {/* Month labels */}
+        <div
+          className="relative mb-2 h-5"
+          style={{
+            width: `${
+              weeks.length * (CELL_SIZE + GAP) - GAP
+            }px`,
+          }}
+        >
+          {months.map((month) => (
+            <span
+              key={`${month.name}-${month.weekIndex}`}
+              className="
+                absolute
+                font-mono
+                text-sm
+                text-[#9AA8C7]
+              "
+              style={{
+                left: `${
+                  month.weekIndex * (CELL_SIZE + GAP)
+                }px`,
+              }}
+            >
+              {month.name}
+            </span>
+          ))}
+        </div>
 
-      {/* Contribution graph */}
-
-      <div
-        className="flex"
-        style={{
-          gap: `${GAP}px`,
-        }}
-      >
-        {weeks.map((week, weekIndex) => (
-          <div
-            key={weekIndex}
-            className="flex flex-col"
-            style={{
-              gap: `${GAP}px`,
-            }}
-          >
-            {week.map((day) => (
-              <div
-                key={day.date}
-                title={`${day.count} submissions on ${day.date}`}
-                className="
-                  rounded-[2px]
-                  transition-transform
-                  duration-150
-                  hover:scale-125
-                "
-                style={{
-                  width: `${CELL_SIZE}px`,
-                  height: `${CELL_SIZE}px`,
-                  backgroundColor: getColor(
-                    day.count,
-                    maxCount || 1
-                  ),
-                }}
-              />
-            ))}
-          </div>
-        ))}
-      </div>
-
-      {/* Bottom info */}
-
-      <div className="mt-7 flex items-center justify-between">
-
-        <p className="font-mono text-sm text-[#9AA8C7]">
-          {totalSubmissions} submissions in the last year
-        </p>
-
-        <div className="flex items-center gap-2">
-
-          <span className="font-mono text-xs text-[#9AA8C7]">
-            Less
-          </span>
-
-          <div className="flex gap-[3px]">
-
-            {[0, 0.25, 0.5, 0.75, 1].map(
-              (level) => (
+        {/* Contribution graph */}
+        <div
+          className="flex"
+          style={{
+            gap: `${GAP}px`,
+          }}
+        >
+          {weeks.map((week, weekIndex) => (
+            <div
+              key={weekIndex}
+              className="flex flex-col"
+              style={{
+                gap: `${GAP}px`,
+              }}
+            >
+              {week.map((day) => (
                 <div
-                  key={level}
-                  className="rounded-[2px]"
+                  key={day.date}
+                  title={`${day.count} submissions on ${day.date}`}
+                  className="
+                    rounded-[2px]
+                    transition-transform
+                    duration-150
+                    hover:scale-125
+                  "
                   style={{
                     width: `${CELL_SIZE}px`,
                     height: `${CELL_SIZE}px`,
                     backgroundColor: getColor(
-                      level === 0
-                        ? 0
-                        : Math.ceil(
-                            maxCount * level
-                          ),
+                      day.count,
                       maxCount || 1
                     ),
+                    boxShadow: "inset 0 0 0 0.5px #263244",
                   }}
                 />
-              )
-            )}
-
-          </div>
-
-          <span className="font-mono text-xs text-[#9AA8C7]">
-            More
-          </span>
-
+              ))}
+            </div>
+          ))}
         </div>
 
       </div>
-
     </div>
-  );
+
+    {/* Bottom info */}
+    <div className="mt-1.5 flex flex-wrap items-center justify-between gap-3">
+      <p className="min-w-0 font-mono text-sm text-[#9AA8C7]">
+        {totalSubmissions} submissions in the last year
+      </p>
+
+      <div className="flex shrink-0 items-center gap-2">
+        <span className="font-mono text-xs text-[#9AA8C7]">
+          Less
+        </span>
+
+        <div className="flex gap-[3px]">
+          {[0, 0.25, 0.5, 0.75, 1].map((level) => (
+            <div
+              key={level}
+              className="rounded-[2px]"
+              style={{
+                width: `${CELL_SIZE}px`,
+                height: `${CELL_SIZE}px`,
+                backgroundColor: getColor(
+                  level === 0
+                    ? 0
+                    : Math.ceil(maxCount * level),
+                  maxCount || 1
+                ),
+              }}
+            />
+          ))}
+        </div>
+
+        <span className="font-mono text-xs text-[#9AA8C7]">
+          More
+        </span>
+      </div>
+    </div>
+
+  </div>
+);
 }
