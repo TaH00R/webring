@@ -21,15 +21,20 @@ export default function Home() {
   const [selectedYear, setSelectedYear] = useState<number | "All">("All");
   const [selectedMember, setSelectedMember] = useState<Member | null>(null);
   const filteredMembers = allMembers.filter((member) => {
-    const matchesSearch = member.name
-      .toLowerCase()
-      .includes(search.toLowerCase());
+  const query = search.toLowerCase().trim();
 
-    const matchesYear =
-      selectedYear === "All" || member.year === selectedYear;
+  const matchesSearch =
+    member.name.toLowerCase().includes(query) ||
+    member.github.toLowerCase().includes(query) ||
+    member.techStack?.some((tech) =>
+      tech.toLowerCase().includes(query)
+    );
 
-    return matchesSearch && matchesYear;
-  });
+  const matchesYear =
+    selectedYear === "All" || member.year === selectedYear;
+
+  return matchesSearch && matchesYear;
+});
 
   return (
     <main className="min-h-screen bg-[#121826] text-[#F1F5FF]">
