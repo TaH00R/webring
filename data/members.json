@@ -73,5 +73,23 @@
       "Git",
       "Iot"
     ]
+  },
+  {
+    "email": "lucky.kumari25b@iiitg.ac.in",
+    "name": "Lucky Kumari",
+    "year": 2029,
+    "github": "lucky-carat",
+    "portfolio": "",
+    "leetcode": "Lucky-carat",
+    "techStack": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "C",
+      "C++",
+      "Java",
+      "Python",
+      "Git"
+    ]
   }
 ]
