@@ -56,23 +56,26 @@ export default function Home() {
           </p>
           </div>
           <div className="mt-2 flex items-center gap-4 font-mono text-sm text-[#9AA8C7]">
-  <a
-    href="#"
-    className="
-      border
-      border-[#2B3A52]
-      px-4
-      py-2
-      font-mono
-      text-xs
-      text-[#9AA8C7]
-      transition-colors
-      hover:border-[#5B8CFF]
-      hover:text-[#F1F5FF]
-    "
-  >
-    + Join the Index
-  </a>
+
+            <a
+  href="https://forms.gle/zp9j25Vc8pjD7zua9"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="
+    border
+    border-[#2B3A52]
+    px-4
+    py-2
+    font-mono
+    text-xs
+    text-[#9AA8C7]
+    transition-colors
+    hover:border-[#5B8CFF]
+    hover:text-[#F1F5FF]
+  "
+>
+  + Join the Index
+</a>
 
   <a
     href="https://discord.gg/FCPj699MQU"
