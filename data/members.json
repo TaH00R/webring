@@ -1,5 +1,5 @@
 [
-   {
+  {
     "email": "mohammad.tahoor25b@iiitg.ac.in",
     "name": "TaHooR",
     "year": 2029,
@@ -40,6 +40,21 @@
       "Sdl3",
       "Golang",
       "React"
+    ]
+  },
+  {
+    "email": "siddharth.dhar25b@iiitg.ac.in",
+    "name": "Siddharth Sankar Dhar",
+    "year": 2029,
+    "github": "kensh1ken",
+    "portfolio": "",
+    "leetcode": "",
+    "techStack": [
+      "C",
+      "JavaScript",
+      "React",
+      "PostgreSQL",
+      "Micropython"
     ]
   }
 ]
