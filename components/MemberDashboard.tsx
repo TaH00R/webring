@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
+import { useState } from "react";
 import type { Member } from "@/types/member";
 
 import { X, ExternalLink } from "lucide-react";
@@ -22,6 +23,8 @@ export default function MemberDashboard({
   member,
   onClose,
 }: MemberDashboardProps) {
+  const [showLeetCode, setShowLeetCode] = useState(false);
+
   const background = `/backgrounds/${member.github}.gif`;
 
   const techStack =
@@ -284,34 +287,48 @@ useEffect(() => {
 
             </div>
 
-            <h3 className="mb-4 font-mono text-sm font-semibold text-[#F1F5FF]">
-              GitHub Activity
-            </h3>
+            <div className="flex items-center gap-2">
+              <button
+                onClick={() => setShowLeetCode(false)}
+                className={`font-mono text-sm font-semibold transition-colors ${
+                  !showLeetCode
+                    ? "text-[#F1F5FF]"
+                    : "text-[#6F7FA3] hover:text-[#9AA8C7]"
+                }`}
+              >
+                GitHub Activity
+              </button>
 
-            <div className="mb-8 overflow-x-auto text-[#9AA8C7]">
+              {member.leetcode && (
+                <>
+                  <span className="text-[#3A4663]">|</span>
 
-              <GitHubCalendar
-                username={member.github}
-                colorScheme="dark"
-              />
-
+                  <button
+                    onClick={() => setShowLeetCode(true)}
+                    className={`font-mono text-sm font-semibold transition-colors ${
+                      showLeetCode
+                        ? "text-[#F1F5FF]"
+                        : "text-[#6F7FA3] hover:text-[#9AA8C7]"
+                    }`}
+                  >
+                    LeetCode Activity
+                  </button>
+                </>
+              )}
             </div>
 
-            {member.leetcode && (
-              <>
-                <h3 className="mb-4 font-mono text-sm font-semibold text-[#F1F5FF]">
-                  LeetCode Activity
-                </h3>
-
-                <div className="mb-8 overflow-x-auto">
-
-                  <LeetCodeCalendar
-                    username={member.leetcode}
-                  />
-
-                </div>
-              </>
-            )}
+            <div className="mt-2 sh-[170px] overflow-x-auto text-[#9AA8C7]">
+              {showLeetCode && member.leetcode ? (
+                <LeetCodeCalendar
+                  username={member.leetcode}
+                />
+              ) : (
+                <GitHubCalendar
+                  username={member.github}
+                  colorScheme="dark"
+                />
+              )}
+            </div>
 
           </div>
 
