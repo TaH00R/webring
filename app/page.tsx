@@ -9,6 +9,8 @@ import YearFilter from "@/components/YearFilter";
 import members from "@/data/members.json";
 import type { Member } from "@/types/member";
 
+import MemberDashboard from "@/components/MemberDashboard";
+
 import { FaDiscord } from "react-icons/fa6";
 import IIITGLogo from "../components/IIITGLogo"
 
@@ -17,7 +19,7 @@ const allMembers: Member[] = members;
 export default function Home() {
   const [search, setSearch] = useState("");
   const [selectedYear, setSelectedYear] = useState<number | "All">("All");
-
+  const [selectedMember, setSelectedMember] = useState<Member | null>(null);
   const filteredMembers = allMembers.filter((member) => {
     const matchesSearch = member.name
       .toLowerCase()
@@ -79,7 +81,16 @@ export default function Home() {
           onChange={setSelectedYear}
         />
 
-        <MemberGrid members={filteredMembers} />
+        <MemberGrid 
+          members={filteredMembers}
+          onMemberClick={setSelectedMember}
+          />
+        {selectedMember && (
+          <MemberDashboard
+            member={selectedMember}
+            onClose={() => setSelectedMember(null)}
+          />
+        )}
       </div>
     </main>
   );
