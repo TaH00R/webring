@@ -5,12 +5,26 @@
     "year": 2029,
     "github": "TaH00R",
     "portfolio": "https://tah00r.github.io/portfolio/",
-    "leetcode": "WqseQx4dgL",
+    "leetcode": "WQseQx4dgL",
     "techStack": [
+      "C",
+      "C++",
+      "Java",
+      "Dart",
+      "Python",
+      "JavaScript",
+      "TypeScript",
       "Flutter",
-      "Spring Boot",
+      "Three.js",
       "Next.js",
-      "C++"
+      "Node.js",
+      "Express.js",
+      "Springboot",
+      "Fastapi",
+      "MongoDB",
+      "Postgressql",
+      "Firebase",
+      "Linux"
     ]
   }
 ]
