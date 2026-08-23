@@ -56,5 +56,18 @@
       "PostgreSQL",
       "Micropython"
     ]
+  },
+  {
+    "email": "pratyush.prakash25b@iiitg.ac.in",
+    "name": "Pratyush Prakash",
+    "year": 2029,
+    "github": "Gen-Pratyush",
+    "portfolio": "",
+    "leetcode": "",
+    "techStack": [
+      "C",
+      "C++",
+      "Java"
+    ]
   }
 ]
