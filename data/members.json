@@ -93,6 +93,24 @@
       "Iot"
     ]
   },
+    {
+    "email": "krish25b@iiitg.ac.in",
+    "name": "Krish",
+    "year": 2029,
+    "github": "codebykrixh",
+    "portfolio": "",
+    "leetcode": "codebykrixh",
+    "techStack": [
+      "C",
+      "C++",
+      "Js",
+      "Render",
+      "Three.js",
+      "Git",
+      "React",
+      "Java"
+    ]
+  },
   {
     "email": "lucky.kumari25b@iiitg.ac.in",
     "name": "Lucky Kumari",
