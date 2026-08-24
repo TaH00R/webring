@@ -141,5 +141,23 @@
       "CSS",
       "JavaScript"
     ]
+  },
+  {
+    "email": "krish25b@iiitg.ac.in",
+    "name": "Krish",
+    "year": 2029,
+    "github": "codebykrixh",
+    "portfolio": "",
+    "leetcode": "Codebykrixh",
+    "techStack": [
+      "C++",
+      "C",
+      "React",
+      "Js",
+      "Three.js",
+      "Java",
+      "Render",
+      "PostgreSQL"
+    ]
   }
 ]
