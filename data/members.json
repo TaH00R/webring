@@ -159,5 +159,21 @@
       "Render",
       "PostgreSQL"
     ]
+  },
+  {
+    "email": "navya.barnwal25b@iiitg.ac.in",
+    "name": "Navya Barnwal",
+    "year": 2029,
+    "github": "Naviie-7",
+    "portfolio": "",
+    "leetcode": "",
+    "techStack": [
+      "C++",
+      "Java",
+      "C",
+      "Python",
+      "Numpy",
+      "Pytorch"
+    ]
   }
 ]
