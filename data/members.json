@@ -198,5 +198,19 @@
       "Mediapipe",
       "Tailwind CSS"
     ]
+  },
+  {
+    "email": "parmar.jagdishbhai25b@iiitg.ac.in",
+    "name": "Moksh Parmar",
+    "year": 2029,
+    "github": "parmarjagdishbhai25b-web",
+    "portfolio": "https://github.com/parmarjagdishbhai25b-web",
+    "leetcode": "",
+    "techStack": [
+      "C",
+      "C++",
+      "Java",
+      "Python"
+    ]
   }
 ]
