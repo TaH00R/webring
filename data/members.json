@@ -125,5 +125,21 @@
       "Python",
       "Git"
     ]
+  },
+  {
+    "email": "priyanshu25b@iiitg.ac.in",
+    "name": "Priyanshu Yadav",
+    "year": 2029,
+    "github": "priyanshu-29",
+    "portfolio": "",
+    "leetcode": "priyanshu-29",
+    "techStack": [
+      "C",
+      "Java",
+      "Linux",
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ]
   }
 ]
