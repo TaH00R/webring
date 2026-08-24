@@ -110,5 +110,20 @@
       "Python",
       "Git"
     ]
+  },
+  {
+    "email": "divyansh.deep25b@iiitg.ac.in",
+    "name": "Divyansh Deep",
+    "year": 2029,
+    "github": "paltze",
+    "portfolio": "",
+    "leetcode": "",
+    "techStack": [
+      "C",
+      "C++",
+      "Rust",
+      "Lua",
+      "Raylib"
+    ]
   }
 ]
