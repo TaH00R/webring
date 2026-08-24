@@ -175,5 +175,28 @@
       "Numpy",
       "Pytorch"
     ]
+  },
+  {
+    "email": "ansik.tomar24b@iiitg.ac.in",
+    "name": "Ansik Singh Tomar",
+    "year": 2028,
+    "github": "https://github.com/aanshik-dev",
+    "portfolio": "https://aanshik-dev.vercel.app/",
+    "leetcode": "https://leetcode.com/u/aanshik-dev/",
+    "techStack": [
+      "C",
+      "C++",
+      "Java",
+      "Python",
+      "JavaScript",
+      "MongoDB",
+      "Express.js",
+      "React",
+      "Node.js",
+      "MySQL",
+      "Opencv",
+      "Mediapipe",
+      "Tailwind CSS"
+    ]
   }
 ]
