@@ -10,8 +10,6 @@
       "C",
       "C++",
       "Java",
-      "Dart",
-      "Python",
       "JavaScript",
       "TypeScript",
       "Flutter",
@@ -24,7 +22,8 @@
       "MongoDB",
       "Postgressql",
       "Firebase",
-      "Linux"
+      "Linux",
+      "Dart"
     ]
   },
   {
