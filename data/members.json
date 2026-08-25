@@ -315,5 +315,23 @@
       "Python",
       "Java"
     ]
+  },
+  {
+    "email": "aryan.gupta24b@iiitg.ac.in",
+    "name": "Aryan Gupta",
+    "year": 2028,
+    "github": "AryanGupta833",
+    "portfolio": "",
+    "leetcode": "Aryan_Gupta",
+    "techStack": [
+      "Java",
+      "Spring Boot",
+      "Rest Apis",
+      "Webclient",
+      "Distributed Systems",
+      "Opentelemetry",
+      "Jaeger",
+      "Resilience4j"
+    ]
   }
 ]
