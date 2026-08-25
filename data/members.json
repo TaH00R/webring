@@ -255,5 +255,25 @@
     "techStack": [
       "Go"
     ]
+  },
+  {
+    "email": "iamdubeyharsh@gmail.com",
+    "name": "Harsh Brijesh Dubey",
+    "year": 2028,
+    "github": "Hxrshthetic",
+    "portfolio": "https://www.github.com/Hxrshthetic",
+    "leetcode": "hxrshthetic",
+    "techStack": [
+      "C",
+      "Cpp",
+      "Java",
+      "MySQL",
+      "Git",
+      "Sfml",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Node Js"
+    ]
   }
 ]
