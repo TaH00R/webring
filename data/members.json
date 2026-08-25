@@ -143,21 +143,22 @@
     ]
   },
   {
-    "email": "krish25b@iiitg.ac.in",
+    "email": "krishtayal29b@gmail.com",
     "name": "Krish",
     "year": 2029,
     "github": "codebykrixh",
     "portfolio": "",
-    "leetcode": "Codebykrixh",
+    "leetcode": "codebykrixh",
     "techStack": [
-      "C++",
       "C",
-      "React",
+      "C++",
+      "HTML",
+      "CSS",
       "JavaScript",
-      "Three.js",
-      "Java",
+      "React",
       "Render",
-      "PostgreSQL"
+      "PostgreSQL",
+      "Three.js"
     ]
   },
   {
