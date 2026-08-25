@@ -226,5 +226,23 @@
       "Python",
       "Java"
     ]
+  },
+  {
+    "email": "pratham.gupta25b@iiitg.ac.in",
+    "name": "Pratham Gupta",
+    "year": 2029,
+    "github": "Pratham-gupta-610",
+    "portfolio": "https://None",
+    "leetcode": "Prathamgupta666",
+    "techStack": [
+      "Rust",
+      "C++",
+      "C",
+      "JavaScript",
+      "Node.js",
+      "MongoDB",
+      "Express.js",
+      "Redis"
+    ]
   }
 ]
