@@ -298,5 +298,22 @@
     "techStack": [
       "Idk"
     ]
+  },
+  {
+    "email": "eklavya25b@iiitg.ac.in",
+    "name": "Eklavya Chandra Singh",
+    "year": 2029,
+    "github": "eklavyadev",
+    "portfolio": "",
+    "leetcode": "",
+    "techStack": [
+      "React",
+      "Next.js",
+      "Express.js",
+      "C++",
+      "PostgreSQL",
+      "Python",
+      "Java"
+    ]
   }
 ]
