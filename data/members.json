@@ -244,5 +244,16 @@
       "Express.js",
       "Redis"
     ]
+  },
+  {
+    "email": "supercoolpencil@duck.com",
+    "name": "Meet Mehta",
+    "year": 2028,
+    "github": "supercoolpencil",
+    "portfolio": "",
+    "leetcode": "supercoolpencil",
+    "techStack": [
+      "Go"
+    ]
   }
 ]
