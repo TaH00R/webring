@@ -391,5 +391,23 @@
     "techStack": [
       "C++"
     ]
+  },
+  {
+    "email": "aditya.verma24b@iiitg.ac.in",
+    "name": "Aditya Verma",
+    "year": 2028,
+    "github": "adityverma11",
+    "portfolio": "",
+    "leetcode": "",
+    "techStack": [
+      "Java",
+      "C++",
+      "C",
+      "Python",
+      "Matlab",
+      "Verilog Hdl",
+      "CSS",
+      "Html."
+    ]
   }
 ]
