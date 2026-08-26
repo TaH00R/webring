@@ -438,5 +438,21 @@
       "Node.js",
       "Express Js(all Mern Stack Stuffs)"
     ]
+  },
+  {
+    "email": "ritesh.raj25b@iiitg.ac.in",
+    "name": "Ritesh Ritu Raj",
+    "year": 2029,
+    "github": "riteshrituraj928-pixel",
+    "portfolio": "",
+    "leetcode": "riteshrituraj",
+    "techStack": [
+      "Cpp",
+      "C",
+      "Java",
+      "React",
+      "Node.js+express",
+      "Mern Stack"
+    ]
   }
 ]
