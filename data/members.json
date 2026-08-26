@@ -423,5 +423,20 @@
       "JavaScript",
       "Mern"
     ]
+  },
+  {
+    "email": "anupam.jaiswal25b@iiitg.ac.in",
+    "name": "Anupam Jaiswal",
+    "year": 2029,
+    "github": "AnupamJai",
+    "portfolio": "",
+    "leetcode": "AnupamJaiswal10",
+    "techStack": [
+      "C++",
+      "Java",
+      "React",
+      "Node.js",
+      "Express Js(all Mern Stack Stuffs)"
+    ]
   }
 ]
