@@ -8,9 +8,10 @@ import { Member } from "@/types/member";
 interface MemberCardProps {
   member: Member;
   onClick: (member: Member) => void;
+  style?: React.CSSProperties;
 }
 
-export default function MemberCard({ member, onClick }: MemberCardProps) {
+export default function MemberCard({ member, onClick, style }: MemberCardProps) {
   const githubUrl = `https://github.com/${member.github}`;
   const cardUrl = member.portfolio || githubUrl;
 
@@ -21,17 +22,21 @@ export default function MemberCard({ member, onClick }: MemberCardProps) {
   return (
     <div
       onClick={() => onClick(member)}
+      style={style}
       className="
         group
         w-full
         cursor-pointer
+        animate-fade-in-up
         border
         border-[#2B3A52]
         bg-[#1A2233]
         p-3
         transition-all
-        duration-200
+        duration-300
+        hover:-translate-y-1
         hover:border-[#5B8CFF]
+        hover:shadow-[0_10px_30px_-10px_rgba(91,140,255,0.35)]
       "
     >
       <div className="mb-3 flex items-start justify-between">
@@ -40,7 +45,7 @@ export default function MemberCard({ member, onClick }: MemberCardProps) {
           alt={member.name}
           width={40}
           height={40}
-          className="border border-[#2B3A52] object-cover"
+          className="border border-[#2B3A52] object-cover transition-transform duration-300 group-hover:scale-105"
           unoptimized
         />
 
@@ -58,7 +63,7 @@ export default function MemberCard({ member, onClick }: MemberCardProps) {
         </a>
       </div>
 
-      <h3 className="truncate font-mono text-[15px] font-semibold text-white">
+      <h3 className="truncate font-mono text-[15px] font-semibold text-white transition-colors duration-200 group-hover:text-[#8BC5FF]">
         {member.name}
       </h3>
 

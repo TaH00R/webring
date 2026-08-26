@@ -5,6 +5,7 @@ import { useState } from "react";
 import SearchBar from "@/components/SearchBar";
 import MemberGrid from "@/components/MemberGrid";
 import YearFilter from "@/components/YearFilter";
+import Leaderboard from "@/components/Leaderboard";
 
 import members from "@/data/members.json";
 import type { Member } from "@/types/member";
@@ -12,14 +13,18 @@ import type { Member } from "@/types/member";
 import MemberDashboard from "@/components/MemberDashboard";
 import { FaUserPlus } from "react-icons/fa";
 import { FaDiscord } from "react-icons/fa6";
+import { Trophy, Users } from "lucide-react";
 import IIITGLogo from "../components/IIITGLogo";
 
 const allMembers: Member[] = members;
+
+type Tab = "directory" | "leaderboard";
 
 export default function Home() {
   const [search, setSearch] = useState("");
   const [selectedYear, setSelectedYear] = useState<number | "All">("All");
   const [selectedMember, setSelectedMember] = useState<Member | null>(null);
+  const [activeTab, setActiveTab] = useState<Tab>("directory");
   const filteredMembers = allMembers.filter((member) => {
     const query = search.toLowerCase().trim();
 
@@ -34,13 +39,26 @@ export default function Home() {
   });
 
   return (
-    <main className="min-h-screen bg-[#121826] text-[#F1F5FF]">
-      <div className="mx-auto max-w-6xl px-5 py-8 sm:px-8 sm:py-12">
+    <main className="relative min-h-screen overflow-hidden bg-[#121826] text-[#F1F5FF]">
+      <div className="pointer-events-none fixed inset-0 bg-grid" />
+      <div className="pointer-events-none fixed -left-32 -top-32 size-96 animate-blob rounded-full bg-[#5B8CFF]/20 blur-[110px]" />
+      <div
+        className="pointer-events-none fixed -right-32 top-1/3 size-96 animate-blob rounded-full bg-[#FFA116]/10 blur-[110px]"
+        style={{ animationDelay: "-8s" }}
+      />
+
+      <div className="relative mx-auto max-w-6xl px-5 py-8 sm:px-8 sm:py-12">
         <div className="flex items-start justify-between">
           <div>
-            <h1 className="font-mono text-4xl font-bold tracking-tight sm:text-5xl">
+            <span className="inline-block border border-[#2B3A52] bg-[#1A2233]/70 px-3 py-1 font-mono text-xs tracking-wide text-[#8BC5FF]">
+              IIIT Guwahati
+            </span>
+
+            <h1 className="mt-4 font-mono text-4xl font-bold tracking-tight sm:text-5xl">
               <span>IIITG </span>
-              <span className="text-[#8BC5FF]">Index</span>
+              <span className="bg-gradient-to-r from-[#8BC5FF] to-[#5B8CFF] bg-clip-text text-transparent">
+                Index
+              </span>
             </h1>
 
             <p className="mt-5 max-w-3xl font-mono text-base leading-relaxed text-[#9AA8C7] sm:text-lg">
@@ -97,14 +115,47 @@ export default function Home() {
         </div>
         <div className="mt-10 h-px w-full bg-[#2B3A52]" />
 
-        <SearchBar value={search} onChange={setSearch} />
+        <div className="mt-8 flex gap-2">
+          <button
+            onClick={() => setActiveTab("directory")}
+            className={`flex items-center gap-2 border px-5 py-2.5 font-mono text-sm font-semibold transition-all duration-200 cursor-pointer ${
+              activeTab === "directory"
+                ? "border-[#5B8CFF] bg-[#20314D] text-white"
+                : "border-[#2B3A52] text-[#9AA8C7] hover:border-[#5B8CFF] hover:text-white"
+            }`}
+          >
+            <Users size={14} />
+            Directory
+          </button>
 
-        <YearFilter value={selectedYear} onChange={setSelectedYear} />
+          <button
+            onClick={() => setActiveTab("leaderboard")}
+            className={`flex items-center gap-2 border px-5 py-2.5 font-mono text-sm font-semibold transition-all duration-200 cursor-pointer ${
+              activeTab === "leaderboard"
+                ? "border-[#FFA116] bg-[#2E2412] text-white"
+                : "border-[#2B3A52] text-[#9AA8C7] hover:border-[#FFA116] hover:text-white"
+            }`}
+          >
+            <Trophy size={14} />
+            Leaderboard
+          </button>
+        </div>
 
-        <MemberGrid
-          members={filteredMembers}
-          onMemberClick={setSelectedMember}
-        />
+        {activeTab === "directory" ? (
+          <>
+            <SearchBar value={search} onChange={setSearch} />
+
+            <YearFilter value={selectedYear} onChange={setSelectedYear} />
+
+            <MemberGrid
+              members={filteredMembers}
+              onMemberClick={setSelectedMember}
+            />
+          </>
+        ) : (
+          <Leaderboard />
+        )}
+
         {selectedMember && (
           <MemberDashboard
             member={selectedMember}
