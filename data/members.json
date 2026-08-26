@@ -409,5 +409,19 @@
       "CSS",
       "Html."
     ]
+  },
+  {
+    "email": "milan.gupta25b@iiitg.ac.in",
+    "name": "Milan Gupta",
+    "year": 2029,
+    "github": "milan275",
+    "portfolio": "",
+    "leetcode": "",
+    "techStack": [
+      "Python",
+      "Qml",
+      "JavaScript",
+      "Mern"
+    ]
   }
 ]
