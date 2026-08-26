@@ -454,5 +454,21 @@
       "Node.js+express",
       "Mern Stack"
     ]
+  },
+  {
+    "email": "mayank.golchha24b@iiitg.ac.in",
+    "name": "Mayank Golchha",
+    "year": 2028,
+    "github": "Mayank-Golchha",
+    "portfolio": "",
+    "leetcode": "",
+    "techStack": [
+      "C++",
+      "C",
+      "Python",
+      "Java",
+      "JavaScript",
+      "Sql"
+    ]
   }
 ]
