@@ -470,5 +470,18 @@
       "JavaScript",
       "Sql"
     ]
+  },
+  {
+    "email": "himanshu25b@iiitg.ac.in",
+    "name": "Himanshu",
+    "year": 2029,
+    "github": "h1manshu42",
+    "portfolio": "",
+    "leetcode": "",
+    "techStack": [
+      "C",
+      "Java",
+      "Dsa"
+    ]
   }
 ]
