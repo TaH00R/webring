@@ -2,74 +2,32 @@
 
 A minimal directory of student portfolios and GitHub profiles from IIIT Guwahati.
 
-google forms link - https://forms.gle/zp9j25Vc8pjD7zua9
+### Submit your profile:
+[Google Form](https://forms.gle/zp9j25Vc8pjD7zua9?utm_source=chatgpt.com)
+> [!IMPORTANT]
+> - **DO NOT PASTE YOUR FULL PROFILE LINKS**. Enter only your GitHub and LeetCode usernames.
+> - Portfolio and LeetCode fields are optional, you can leave them empty.
 
-https://iiitg-index.vercel.app/
+### Website:
+[IIITG Index](https://iiitg-index.vercel.app/?utm_source=chatgpt.com)
 
----
 
-## Project Structure
+<details>
+<summary>
+Want a custom background on your profile?
+</summary>
 
-```text
-src/
-├── app/
-├── components/
-├── data/
-│   └── members.json
-├── types/
-└── lib/
-```
-
----
-
-## Adding Yourself
-
-Open
+Add a `.gif` to:
 
 ```text
-src/data/members.json
+public/backgrounds/
 ```
 
-Add your information.
+The filename **must be your GitHub username**:
 
-```json
-{
-  "name": "John Doe",
-  "year": 2025,
-  "github": "johndoe",
-  "portfolio": "https://john.dev"
-}
+```text
+public/backgrounds/johndoe.gif
 ```
 
-If u don't have a portfolio, you can leave the field empty.
-The default link would be to the GitHub profile.
-
-Create a Pull Request once you're done.
-
----
-
-## Contributing
-
-1. Fork this repository.
-2. Create a new branch.
-
-```bash
-git checkout -b add-my-profile
-```
-
-3. Add yourself to `src/data/members.json`.
-4. Commit your changes.
-
-```bash
-git commit -m "feat: add John Doe"
-```
-
-5. Push your branch.
-
-```bash
-git push origin add-my-profile
-```
-
-6. Open a Pull Request.
-
----
+Then create a Pull Request containing the GIF.
+</details>
