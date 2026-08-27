@@ -47,7 +47,7 @@ export default function Home() {
       <div className="relative mx-auto max-w-6xl px-5 py-8 sm:px-8 sm:py-12">
         <div className="flex items-start justify-between">
           <div>
-            <h1 className="mt-0.67 font-mono text-4xl font-bold tracking-tight sm:text-5xl">
+            <h1 className="mt-0.8 font-mono text-4xl font-bold tracking-tight sm:text-5xl">
               <span>IIITG </span>
               <span className="text-[#8BC5FF]">Index</span>
             </h1>
