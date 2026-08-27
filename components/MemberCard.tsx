@@ -34,9 +34,7 @@ export default function MemberCard({ member, onClick, style }: MemberCardProps) 
         p-3
         transition-all
         duration-300
-        hover:-translate-y-1
         hover:border-[#5B8CFF]
-        hover:shadow-[0_10px_30px_-10px_rgba(91,140,255,0.35)]
       "
     >
       <div className="mb-3 flex items-start justify-between">
@@ -45,7 +43,7 @@ export default function MemberCard({ member, onClick, style }: MemberCardProps) 
           alt={member.name}
           width={40}
           height={40}
-          className="border border-[#2B3A52] object-cover transition-transform duration-300 group-hover:scale-105"
+          className="border border-[#2B3A52] object-cover"
           unoptimized
         />
 
@@ -58,7 +56,7 @@ export default function MemberCard({ member, onClick, style }: MemberCardProps) 
         >
           <ExternalLink
             size={15}
-            className="text-[#6E7F9E] opacity-0 transition-opacity duration-200 group-hover:opacity-100"
+            className="text-[#6E7F9E] sm:opacity-0 sm:transition-opacity sm:duration-200 sm:group-hover:opacity-100"
           />
         </a>
       </div>
