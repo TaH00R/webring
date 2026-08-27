@@ -497,5 +497,18 @@
       "Python",
       "PostgreSQL"
     ]
+  },
+  {
+    "email": "rishit.saxena24b@iiitg.ac.in",
+    "name": "Rishit Saxena",
+    "year": 2028,
+    "github": "RishitSaxena55",
+    "portfolio": "",
+    "leetcode": "Rishit",
+    "techStack": [
+      "C++",
+      "Python",
+      "Pytorch"
+    ]
   }
 ]
