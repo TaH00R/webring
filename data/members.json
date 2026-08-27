@@ -483,5 +483,18 @@
       "Java",
       "Dsa"
     ]
+  },
+  {
+    "email": "riya.badhani24b@iiitg.ac.in",
+    "name": "Riya Badhani",
+    "year": 2028,
+    "github": "riyabadhani",
+    "portfolio": "",
+    "leetcode": "",
+    "techStack": [
+      "Cpp",
+      "Python",
+      "PostgreSQL"
+    ]
   }
 ]
