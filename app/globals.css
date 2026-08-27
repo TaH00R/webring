@@ -36,3 +36,54 @@ body {
   background: #5b8cff;
   color: white;
 }
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes blobMove {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+  33% {
+    transform: translate(30px, -40px) scale(1.15);
+  }
+  66% {
+    transform: translate(-20px, 25px) scale(0.9);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.5s ease-out both;
+}
+
+.animate-blob {
+  animation: blobMove 20s ease-in-out infinite;
+}
+
+.bg-grid {
+  background-image: linear-gradient(
+      rgba(91, 140, 255, 0.06) 1px,
+      transparent 1px
+    ),
+    linear-gradient(90deg, rgba(91, 140, 255, 0.06) 1px, transparent 1px);
+  background-size: 42px 42px;
+  -webkit-mask-image: radial-gradient(
+    ellipse 80% 60% at 50% 0%,
+    black 40%,
+    transparent 100%
+  );
+  mask-image: radial-gradient(
+    ellipse 80% 60% at 50% 0%,
+    black 40%,
+    transparent 100%
+  );
+}
