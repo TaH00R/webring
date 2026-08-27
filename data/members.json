@@ -545,5 +545,24 @@
       "Rest Apis",
       "Springboot"
     ]
+  },
+  {
+    "email": "kunsh.agarwal26b@iiitg.ac.in",
+    "name": "Kunsh Agarwal",
+    "year": 2030,
+    "github": "KUNSH-bit",
+    "portfolio": "",
+    "leetcode": "",
+    "techStack": [
+      "C",
+      "C++",
+      "Python",
+      "Sql",
+      "Java",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "Dart"
+    ]
   }
 ]
