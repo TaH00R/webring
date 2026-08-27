@@ -510,5 +510,39 @@
       "Python",
       "Pytorch"
     ]
+  },
+  {
+    "email": "robin24b@iiitg.ac.in",
+    "name": "Robin Nair",
+    "year": 2028,
+    "github": "Robinnair",
+    "portfolio": "https://github.com/Robinnair",
+    "leetcode": "robinnair925",
+    "techStack": [
+      "Python",
+      "Java",
+      "JavaScript",
+      "Sql",
+      "C++",
+      "C",
+      "Scikit-learn",
+      "Snowpark Ml",
+      "Hugging Face Transformers",
+      "Numpy",
+      "Pandas",
+      "Matplotlib",
+      "Faiss",
+      "Rag",
+      "Llama",
+      "Ollama",
+      "Snowflake",
+      "MySQL",
+      "MongoDB",
+      "Jdbc",
+      "Git",
+      "Linux",
+      "Node.js",
+      "Rest Apis"
+    ]
   }
 ]
