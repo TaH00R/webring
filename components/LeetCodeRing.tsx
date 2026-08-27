@@ -162,33 +162,23 @@ export default function LeetCodeRing({
 
         <text
           x={CENTER}
-          y={CENTER - 4}
+          y={CENTER+5}
           textAnchor="middle"
           className="
             font-mono
             font-bold
             fill-[#F1F5FF]
-            text-[22px]
+            text-[30px]
           "
         >
           {solved}
-
-          <tspan
-            className="
-              font-medium
-              fill-[#8593B2]
-              text-xs
-            "
-          >
-            /{total}
-          </tspan>
         </text>
 
         {/* Solved label */}
 
         <text
           x={CENTER}
-          y={CENTER + 15}
+          y={CENTER + 20}
           textAnchor="middle"
           className="
             font-mono
