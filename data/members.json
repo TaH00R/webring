@@ -643,5 +643,18 @@
       "JavaScript",
       "React"
     ]
+  },
+  {
+    "email": "reyansh.saxena26b@iiitg.ac.in",
+    "name": "Reyansh Saxena",
+    "year": 2030,
+    "github": "RS-2309",
+    "portfolio": "",
+    "leetcode": "ReyCodes",
+    "techStack": [
+      "Python",
+      "Flask",
+      "MySQL"
+    ]
   }
 ]
