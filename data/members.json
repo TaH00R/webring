@@ -602,5 +602,18 @@
       "Python",
       "Next.js"
     ]
+  },
+  {
+    "email": "sayan.nandi26b@iiitg.ac.in",
+    "name": "Sayan Nandi",
+    "year": 2030,
+    "github": "SayanNnd",
+    "portfolio": "",
+    "leetcode": "sayannnd",
+    "techStack": [
+      "C",
+      "C++",
+      "JavaScript"
+    ]
   }
 ]
