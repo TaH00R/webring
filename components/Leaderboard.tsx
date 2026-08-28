@@ -3,6 +3,9 @@
 import { FaGithub } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
 
+import type { Member } from "@/types/member";
+import members from "@/data/members.json";
+
 import { useLeaderboard } from "@/hooks/useLeaderboard";
 import LeaderboardPanel from "@/components/LeaderboardPanel";
 
@@ -27,6 +30,7 @@ export default function Leaderboard() {
           <h2 className="font-mono text-2xl font-bold text-[#F1F5FF]">
             Weekly Leaderboard
           </h2>
+
           <p className="mt-1 font-mono text-sm text-[#9AA8C7]">
             Most active members over the last 7 days.
           </p>
@@ -49,6 +53,7 @@ export default function Leaderboard() {
             title="GitHub"
             icon={<FaGithub size={20} />}
             entries={data?.github ?? []}
+            members={members}
             unit="contributions"
             accent="#5B8CFF"
             loading={loading}
@@ -58,6 +63,7 @@ export default function Leaderboard() {
             title="LeetCode"
             icon={<SiLeetcode size={20} />}
             entries={data?.leetcode ?? []}
+            members={members}
             unit="solved"
             accent="#FFA116"
             loading={loading}
