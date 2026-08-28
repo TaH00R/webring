@@ -615,5 +615,18 @@
       "C++",
       "JavaScript"
     ]
+  },
+  {
+    "email": "shubham.pal26b@iiitg.ac.in",
+    "name": "Shubham Pal",
+    "year": 2030,
+    "github": "Shubham-Pal-max",
+    "portfolio": "",
+    "leetcode": "",
+    "techStack": [
+      "C++",
+      "C",
+      "Python"
+    ]
   }
 ]
