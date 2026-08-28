@@ -575,5 +575,17 @@
     "techStack": [
       "C++"
     ]
+  },
+  {
+    "email": "chiranjeev.singh25b@iiitg.ac.in",
+    "name": "Chiranjeev Singh",
+    "year": 2029,
+    "github": "chiranjeevsingh25b-hue",
+    "portfolio": "",
+    "leetcode": "",
+    "techStack": [
+      "React",
+      "Supabase"
+    ]
   }
 ]
