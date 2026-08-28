@@ -663,5 +663,16 @@
       "Flask",
       "MySQL"
     ]
+  },
+  {
+    "email": "yuvraj.singh26b@iiitg.ac.in",
+    "name": "Yuvraj Singh",
+    "year": 2030,
+    "github": "YuvrajRathaur",
+    "portfolio": "",
+    "leetcode": "",
+    "techStack": [
+      "Java"
+    ]
   }
 ]
