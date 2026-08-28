@@ -665,5 +665,17 @@
     "techStack": [
       "."
     ]
+  },
+  {
+    "email": "abhineet.kumar26b@iiitg.ac.in",
+    "name": "Abhineet Kumar",
+    "year": 2030,
+    "github": "perfectionist-pcm",
+    "portfolio": "",
+    "leetcode": "perfectionist_PCM",
+    "techStack": [
+      "Python",
+      "C"
+    ]
   }
 ]
