@@ -1,12 +1,14 @@
 import Image from "next/image";
 import type { ReactNode } from "react";
 
+import type { Member } from "@/types/member";
 import type { LeaderboardEntry } from "@/hooks/useLeaderboard";
 
 interface LeaderboardPanelProps {
   title: string;
   icon: ReactNode;
   entries: LeaderboardEntry[];
+  members: Member[];
   unit: string;
   accent: string;
   loading: boolean;
@@ -18,6 +20,7 @@ export default function LeaderboardPanel({
   title,
   icon,
   entries,
+  members,
   unit,
   accent,
   loading,
@@ -29,7 +32,11 @@ export default function LeaderboardPanel({
         style={{ boxShadow: `inset 0 2px 0 ${accent}` }}
       >
         <span style={{ color: accent }}>{icon}</span>
-        <h3 className="font-mono text-lg font-bold text-[#F1F5FF]">{title}</h3>
+
+        <h3 className="font-mono text-lg font-bold text-[#F1F5FF]">
+          {title}
+        </h3>
+
         <span className="ml-auto font-mono text-xs text-[#6E7F9E]">
           last 7 days
         </span>
@@ -52,42 +59,55 @@ export default function LeaderboardPanel({
         )}
 
         {!loading &&
-          entries.slice(0, 10).map((entry, index) => (
-            <a
-              key={entry.github}
-              href={entry.portfolio || `https://github.com/${entry.github}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-3 px-5 py-3 transition-colors duration-150 hover:bg-[#20304a]"
-            >
-              <span
-                className="w-5 shrink-0 text-center font-mono text-sm font-bold"
-                style={{ color: MEDALS[index] ?? "#6E7F9E" }}
+          entries.slice(0, 10).map((entry, index) => {
+            const member = members.find(
+              (member) => member.github === entry.github,
+            );
+
+            if (!member) return null;
+
+            const profileUrl =
+              title === "LeetCode" && member.leetcode
+                ? `https://leetcode.com/u/${member.leetcode}/`
+                : `https://github.com/${member.github}`;
+
+            return (
+              <a
+                key={member.github}
+                href={profileUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-3 px-5 py-3 transition-colors duration-150 hover:bg-[#20304a]"
               >
-                {index + 1}
-              </span>
+                <span
+                  className="w-5 shrink-0 text-center font-mono text-sm font-bold"
+                  style={{ color: MEDALS[index] ?? "#6E7F9E" }}
+                >
+                  {index + 1}
+                </span>
 
-              <Image
-                src={`https://github.com/${entry.github}.png`}
-                alt={entry.name}
-                width={32}
-                height={32}
-                unoptimized
-                className="size-8 shrink-0 rounded-full border border-[#2B3A52] object-cover"
-              />
+                <Image
+                  src={`https://github.com/${member.github}.png`}
+                  alt={member.name}
+                  width={32}
+                  height={32}
+                  unoptimized
+                  className="size-8 shrink-0 rounded-full border border-[#2B3A52] object-cover"
+                />
 
-              <span className="min-w-0 flex-1 truncate font-mono text-sm text-[#F1F5FF]">
-                {entry.name}
-              </span>
+                <span className="min-w-0 flex-1 truncate font-mono text-sm text-[#F1F5FF]">
+                  {member.name}
+                </span>
 
-              <span
-                className="shrink-0 font-mono text-xs font-semibold"
-                style={{ color: accent }}
-              >
-                {entry.count} {unit}
-              </span>
-            </a>
-          ))}
+                <span
+                  className="shrink-0 font-mono text-xs font-semibold"
+                  style={{ color: accent }}
+                >
+                  {entry.count} {unit}
+                </span>
+              </a>
+            );
+          })}
       </div>
     </div>
   );
