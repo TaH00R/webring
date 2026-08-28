@@ -15,26 +15,19 @@
     ]
   },
   {
-    "email": "suyash.jain25b@iiitg.ac.in",
-    "name": "Suyash Jain",
+    "email": "ronik.baul25b@iiitg.ac.in",
+    "name": "Ronik",
     "year": 2029,
     "github": "R1ftzy",
-    "portfolio": "",
-    "leetcode": "",
+    "portfolio": "https://r1ftzy.github.io/",
+    "leetcode": "r1ftzy",
     "techStack": [
-      "Perl",
-      "Mips",
-      "X86 Assembly",
-      "Ruby On Rails",
-      "Lisp",
-      "Jvm Bytecode",
-      "Unreal Engine",
-      "Holy C",
-      "A+",
-      "B",
-      "D",
-      "R",
-      "Chudlang"
+      "C",
+      "C++",
+      "Raylib",
+      "Sdl3",
+      "Go",
+      "React"
     ]
   },
   {
