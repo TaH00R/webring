@@ -587,5 +587,20 @@
       "React",
       "Supabase"
     ]
+  },
+  {
+    "email": "divyam.raj26b@iiitg.ac.in",
+    "name": "Divyam Raj",
+    "year": 2030,
+    "github": "CodeMasala5K",
+    "portfolio": "",
+    "leetcode": "divyamraj_07",
+    "techStack": [
+      "C++",
+      "React",
+      "Java",
+      "Python",
+      "Next.js"
+    ]
   }
 ]
