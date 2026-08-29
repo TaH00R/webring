@@ -721,5 +721,19 @@
       "Websockets",
       "Bun"
     ]
+  },
+  {
+    "email": "ansh.singh25b@iiitg.ac.in",
+    "name": "Ansh Singh",
+    "year": 2029,
+    "github": "Ansh20777",
+    "portfolio": "",
+    "leetcode": "Ansh20777",
+    "techStack": [
+      "C++",
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ]
   }
 ]
