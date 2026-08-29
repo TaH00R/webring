@@ -690,5 +690,16 @@
       "C++",
       "Java"
     ]
+  },
+  {
+    "email": "vaibhav.parashar26b@iiitg.ac.in",
+    "name": "Vaibhav Parashar",
+    "year": 2030,
+    "github": "vaibhav-parashar",
+    "portfolio": "",
+    "leetcode": "",
+    "techStack": [
+      "C++"
+    ]
   }
 ]
