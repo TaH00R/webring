@@ -735,5 +735,16 @@
       "CSS",
       "JavaScript"
     ]
+  },
+  {
+    "email": "lakshit.nawal26b@iiitg.ac.in",
+    "name": "Lakshit Nawal",
+    "year": 2030,
+    "github": "ln2008",
+    "portfolio": "",
+    "leetcode": "LakshitNawal",
+    "techStack": [
+      "C++"
+    ]
   }
 ]
