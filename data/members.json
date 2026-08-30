@@ -807,5 +807,24 @@
       "C",
       "Python"
     ]
+  },
+  {
+    "email": "vivek.jaiswal25b@iiitg.ac.in",
+    "name": "Vivek Jaiswal",
+    "year": 2029,
+    "github": "vivek-2486",
+    "portfolio": "",
+    "leetcode": "BL4DE_Code",
+    "techStack": [
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "C++",
+      "Java",
+      "HTML",
+      "CSS",
+      "Tailwind CSS",
+      "JavaScript"
+    ]
   }
 ]
