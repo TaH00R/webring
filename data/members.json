@@ -795,5 +795,17 @@
     "techStack": [
       "C"
     ]
+  },
+  {
+    "email": "devesh.srivastava26b@iiitg.ac.in",
+    "name": "Devesh Srivastava",
+    "year": 2030,
+    "github": "IntrovertSpecialist",
+    "portfolio": "https://github.com/IntrovertSpecialist",
+    "leetcode": "IntrovertSpecialist",
+    "techStack": [
+      "C",
+      "Python"
+    ]
   }
 ]
