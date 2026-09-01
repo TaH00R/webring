@@ -817,5 +817,19 @@
       "Tailwind CSS",
       "JavaScript"
     ]
+  },
+  {
+    "email": "harsh.kumar26b@iiitg.ac.in",
+    "name": "Harsh Kumar",
+    "year": 2030,
+    "github": "Harsh-Kumar08",
+    "portfolio": "",
+    "leetcode": "Harsh_Kumar08",
+    "techStack": [
+      "C++",
+      "Python",
+      "JavaScript",
+      "React"
+    ]
   }
 ]
