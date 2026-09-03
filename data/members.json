@@ -704,13 +704,18 @@
   },
   {
     "email": "shubham.khakha24b@iiitg.ac.in",
-    "name": "Tushar Goyal",
+    "name": "Shubham Khakha",
     "year": 2028,
-    "github": "tushar00045",
+    "github": "shubhook",
     "portfolio": "",
-    "leetcode": "Tushar220",
+    "leetcode": "",
     "techStack": [
-      "? This user tried to edit someone else's data, lolxd ?"
+      "Typescript/javascript",
+      "C/c++",
+      "Prismaorm",
+      "PostgreSQL",
+      "Websockets",
+      "Bun"
     ]
   },
   {
