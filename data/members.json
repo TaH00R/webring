@@ -847,5 +847,16 @@
     "techStack": [
       "? This user tried to edit someone else's data, lolxd ?"
     ]
+  },
+  {
+    "email": "sahil.tripathy26b@iiitg.ac.in",
+    "name": "Sahil Tripathy",
+    "year": 2030,
+    "github": "ST-001",
+    "portfolio": "",
+    "leetcode": "ST_001",
+    "techStack": [
+      "C++"
+    ]
   }
 ]
