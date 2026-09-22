@@ -931,5 +931,17 @@
       "Python",
       "JavaScript"
     ]
+  },
+  {
+    "email": "suyash.jain25b@iiitg.ac.in",
+    "name": "Suyash Jain",
+    "year": 2029,
+    "github": "suyashjain1404-stack",
+    "portfolio": "",
+    "leetcode": "Suyaa_14",
+    "techStack": [
+      "C",
+      "Java"
+    ]
   }
 ]
