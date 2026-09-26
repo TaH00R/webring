@@ -940,5 +940,16 @@
       "C",
       "Java"
     ]
+  },
+  {
+    "email": "saksham.gupta26b@iiitg.ac.in",
+    "name": "Saksham Gupta",
+    "year": 2030,
+    "github": "AccidentalGenius08",
+    "portfolio": "",
+    "leetcode": "Saksham_Gupta19",
+    "techStack": [
+      "Python"
+    ]
   }
 ]
