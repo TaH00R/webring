@@ -956,5 +956,21 @@
     "techStack": [
       "Python"
     ]
+  },
+  {
+    "email": "abhijeet.kumar26b@iiitg.ac.in",
+    "name": "Abhijeet Kumar",
+    "year": 2030,
+    "github": "orionrio",
+    "portfolio": "",
+    "leetcode": "orionrio",
+    "techStack": [
+      "C",
+      "C++",
+      "MySQL",
+      "Python",
+      "HTML",
+      "CSS"
+    ]
   }
 ]
