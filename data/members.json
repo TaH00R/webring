@@ -595,11 +595,11 @@
     "name": "Sayan Nandi",
     "year": 2030,
     "github": "SayanNnd",
-    "portfolio": "",
+    "portfolio": "https://sayannnd.github.io/About-Me/",
     "leetcode": "sayan_nnd",
     "techStack": [
-      "C",
-      "C++",
+      "C/c++",
+      "Rust",
       "JavaScript"
     ]
   },
