@@ -1020,5 +1020,17 @@
       "C",
       "Python"
     ]
+  },
+  {
+    "email": "abhay.gupta26b@iiitg.ac.in",
+    "name": "Abhay Gupta",
+    "year": 2030,
+    "github": "abhaygupta-eng",
+    "portfolio": "https://abhaygupta-eng/my-portfolio",
+    "leetcode": "Abhay_Gupta_eng",
+    "techStack": [
+      "C",
+      "C++"
+    ]
   }
 ]
