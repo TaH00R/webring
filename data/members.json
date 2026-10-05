@@ -1008,5 +1008,17 @@
       "C++",
       "HTML"
     ]
+  },
+  {
+    "email": "prince.gupta26b@iiitg.ac.in",
+    "name": "Prince Gupta",
+    "year": 2030,
+    "github": "Prince02gupta",
+    "portfolio": "https://prince02gupta.github.io/",
+    "leetcode": "visionXprince",
+    "techStack": [
+      "C",
+      "Python"
+    ]
   }
 ]
