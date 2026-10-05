@@ -995,5 +995,18 @@
       "C",
       "HTML"
     ]
+  },
+  {
+    "email": "arpit.kumar24826b@iiitg.ac.in",
+    "name": "Arpit Kumar",
+    "year": 2030,
+    "github": "ArpitzzKumar",
+    "portfolio": "https://arpitzzkumar.github.io/AboutMyself/",
+    "leetcode": "Armpitz",
+    "techStack": [
+      "C",
+      "C++",
+      "HTML"
+    ]
   }
 ]
