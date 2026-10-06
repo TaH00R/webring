@@ -1032,5 +1032,18 @@
       "C",
       "C++"
     ]
+  },
+  {
+    "email": "kartik.agrawal26b@iiitg.ac.in",
+    "name": "Kartik Dev Agrawal",
+    "year": 2030,
+    "github": "kartikdevagrawal",
+    "portfolio": "https://kartikdevagrawal.github.io/First-Project/",
+    "leetcode": "",
+    "techStack": [
+      "C",
+      "HTML",
+      "Python"
+    ]
   }
 ]
